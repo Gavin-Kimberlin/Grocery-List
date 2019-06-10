@@ -19,18 +19,3 @@ $(document).ready(function () {
     $('form.lists').hide();
   }); //click event
 }); //jquery
-
-
-  // $('#grocery-input').submit(function (event) {
-  //   event.preventDefault();
-  //   var groceryInputs = ['item1', 'item2', 'item3', 'item4', 'item5', 'item6'];
-  //
-  //
-  //   groceryInputs.forEach(function (input) {
-  //
-  //     var userInput = $('input#' + input).val();
-  //     groceryInputs.push(userInput);
-  //   });
-  //   console.log(groceryItems);
-  //   event.preventDefault();
-  // });
